@@ -4,6 +4,14 @@
 .raleway-normal-font{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter-normal-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -29,6 +37,9 @@
 }
 .text-clr{
   color: #252432;
+}
+.primary-clr{
+  color: #4E47FF;
 }
 
 
@@ -103,3 +114,38 @@ nav{
   border-radius: 50px;
 }
 
+/* Data Section Styles */
+
+ section{
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 142px;
+  /* margin: 50px 142px; */
+  border-radius: 25px;
+  margin: 116px 159px 137px 141px;
+  /* max-width: 1140px; */
+  /* height: 306px; */
+ }
+.data{
+  display: flex;
+  justify-content: space-around;
+}
+.data-styles{
+  margin: 0 32px;
+  text-align: center;
+}
+.data-title{
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+.data h3{
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.data p{
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.5)
+  margin-top: 0%;
+}
