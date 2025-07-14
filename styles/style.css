@@ -27,11 +27,15 @@
     border: none;
     cursor: pointer;
 }
+.text-clr{
+  color: #252432;
+}
 
 
 /* Header Styles */
 header{
   background-image: url('../Assets/Hero-bg.png');
+  background-repeat: repeat;
 }
 
 
@@ -56,12 +60,46 @@ nav{
 /* Banner Styles */
 .banner{
   text-align: center;
+  /* justify-content: center; */
+  
 }
 
 .banner-description{
   font-size: 65px;
   font-weight: bold;
-  color: #252432;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
+
+.banner-btn{
+  margin-bottom: 200px;
+}
+
+/* Main Styles */
+
+/* webflow styles */
+.webflow{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* max-width: 1140px; */
+  /* margin: 116px 160px 0px; */
+  margin: 120px 150px 120px 150px;
+}
+
+.webflow-title{
+  font-size: 42px;
+  font-weight: bold;
+}
+.webflow-subtitle{
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+  width: 517px;
+  /* margin: 70px 0px; */
+}
+.webflow-img{
+  border-radius: 50px;
+}
+
