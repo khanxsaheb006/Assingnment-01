@@ -15,26 +15,28 @@
   font-style: normal;
 }
 
-
 /* Shared Styles */
 
-/* .primary-btn{
-    font-size: 16px;
-    font-weight: bold;
-    /* width: 60px;
-    height: 24px;
-    line-height: 150%; */
-
-.primary-btn{
-    background-color: #4E47FF;
-    font-size: 16px;
-    font-weight: bold;
-    color: #FFFFFF;
-    padding: 12px 36px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+.primary-btn {
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
+
+.primary-btn:hover {
+  background-color: rgb(215, 194, 57);
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(220, 182, 15, 0.599);
+}
+
+
+
 .text-clr{
   color: #252432;
 }
@@ -217,4 +219,43 @@ nav{
   padding: 12px 36px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.moreinfo-img{
+  border-radius: 48px;
+}
+
+/* form section styles */
+.form-part{
+  display: flex;
+  background-color: rgba(176, 174, 217, 0.1);
+  justify-content: space-between;
+  align-items: center;
+}
+.form-title{
+  font-size: 97px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+.box-title{
+  font-size: 18px;
+  font-weight: 500;
+  /* margin-bottom: 10px; */
+}
+.box{
+  font-size: 20px;
+  font-weight: 400px;
+  width: 497px;
+  height: 5px;
+  border-radius: 10px;
+  border: none;
+  padding: 32px 20px;
+}
+.msg-bx{
+  font-size: 20px;
+  font-weight: 400px;
+  width: 497px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  padding: 32px 20px;
 }
