@@ -167,7 +167,7 @@ nav{
 .feedback-title{
   font-size: 42px;
   font-weight: bold;
-
+  margin: 40px;
 }
 .feedback-data{
   display: flex;
@@ -258,4 +258,34 @@ nav{
   border-radius: 10px;
   border: none;
   padding: 32px 20px;
+}
+
+/* footer styles */
+footer{
+}
+.ft-sec{
+ text-align: center;
+ margin: 104px 450px;
+ display: flex;
+ flex-direction: column;
+}
+.ft-title{
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0px 120px 108px;
+  margin-bottom: 8px;
+}
+.ft-des{
+  color: rgba(137, 135, 161, 1);
+  width: 531px;
+  height: 48px;
+  margin:auto
+}
+.ft-items{
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin: auto;
+  color: rgba(137, 135, 161, 1);
+  margin-top: 20px;
 }
